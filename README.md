@@ -1,6 +1,6 @@
 # 🌲 Arbre couvrant de poids minimal
 
-Ce programme est un de mes **premiers projets en algorithmique**, réalisé **au collège**.  
+Ce programme est un de mes **premiers projets en algorithmique**, réalisé **au lycée**.  
 Il s’agit d’une implémentation simple (et visuelle) d’un **algorithme d’arbre couvrant de poids minimal**, c’est-à-dire un réseau reliant plusieurs points avec **le moins de distance totale possible**.  
 Le but était de comprendre comment **relier des points sans créer de cycles** tout en minimisant la longueur totale des segments.
 
