@@ -1,4 +1,4 @@
-# 🌲 Arbre couvrant de poids minimal
+# Arbre couvrant de poids minimal
 
 Ce programme est un de mes **premiers projets en algorithmique**, réalisé **au lycée**.  
 Il s’agit d’une implémentation simple (et visuelle) d’un **algorithme d’arbre couvrant de poids minimal**, c’est-à-dire un réseau reliant plusieurs points avec **le moins de distance totale possible**.  
@@ -6,7 +6,7 @@ Le but était de comprendre comment **relier des points sans créer de cycles** 
 
 ---
 
-## ⚙️ Description du projet
+## Description du projet
 
 Le script permet :
 - de **générer des points aléatoires** dans un plan 2D ;
@@ -18,7 +18,7 @@ Ce programme s’appuie sur une logique proche de l’**algorithme de Kruskal**,
 
 ---
 
-## 🧩 Technologies utilisées
+## Technologies utilisées
 
 - **Python 3**
 - **NumPy** — pour la manipulation des coordonnées
@@ -28,7 +28,7 @@ Ce programme s’appuie sur une logique proche de l’**algorithme de Kruskal**,
 
 ---
 
-## 🧠 Fonctionnement simplifié
+## Fonctionnement simplifié
 
 1. Les coordonnées des points sont définies ou générées aléatoirement.
 2. Toutes les paires de points sont évaluées pour connaître leur distance.
@@ -40,7 +40,7 @@ Le programme affiche ensuite la **distance totale minimale** pour relier tous le
 
 ---
 
-## 🚧 Points faibles du code (hérités de l’époque)
+## Points faibles du code (hérités de l’époque)
 
 Ce projet date de mes débuts, il comporte donc plusieurs limites :
 - Code **monolithique** sans séparation claire entre logique et affichage.
@@ -51,22 +51,22 @@ Ce projet date de mes débuts, il comporte donc plusieurs limites :
 
 ---
 
-## 💡 Pistes d’amélioration
+## Pistes d’amélioration
 
 Aujourd’hui, je pourrais améliorer ce projet en :
-- 🧩 Utilisant une **structure de graphe** avec des bibliothèques comme `networkx`.
-- ⚡ Remplaçant la logique maison par un **algorithme de Kruskal ou Prim optimisé**.
-- 🧮 Ajoutant une **complexité calculée et affichée** (O(E log V)).
-- 📊 Offrant une **interface graphique** simple pour modifier les points ou voir le graphe final.
-- 🧹 Rendant le code plus modulaire (séparer calcul / affichage / génération).
+- Utilisant une **structure de graphe** avec des bibliothèques comme `networkx`.
+- Remplaçant la logique maison par un **algorithme de Kruskal ou Prim optimisé**.
+- Ajoutant une **complexité calculée et affichée** (O(E log V)).
+- Offrant une **interface graphique** simple pour modifier les points ou voir le graphe final.
+- Rendant le code plus modulaire (séparer calcul / affichage / génération).
 
 ---
 
-## 📚 Conclusion
+##  Conclusion
 
 Ce programme a été un excellent **premier contact avec l’algorithmique et la géométrie computationnelle**.  
 Il m’a permis de comprendre la logique des graphes, des distances et des algorithmes d’optimisation, bien avant d’apprendre les structures de données plus avancées.
 
 ---
 
-👨‍💻 *Projet d’apprentissage — écrit au collège pour explorer les algorithmes de graphes et la visualisation Python.*
+*Projet d’apprentissage — écrit au collège pour explorer les algorithmes de graphes et la visualisation Python.*
